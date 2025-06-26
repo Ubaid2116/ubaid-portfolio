@@ -49,7 +49,7 @@ const Navbar = () => {
             <FaRobot className="w-8 h-8 bg-clip-text text-white" />
           </motion.div>
           <span className="text-white text-xl font-bold hover:text-gray-300">
-            Agentia World
+            UBAID .
           </span>
         </Link>
 
@@ -59,13 +59,13 @@ const Navbar = () => {
             href="#technology"
             className="text-gray-300 hover:text-white transition relative after:block after:h-0.5 after:bg-white after:w-0 hover:after:w-full after:transition-all"
           >
-            Technology
+            About
           </Link>
           <Link
             href="#pricing"
             className="text-gray-300 hover:text-white transition relative after:block after:h-0.5 after:bg-white after:w-0 hover:after:w-full after:transition-all"
           >
-            Pricing
+            Services
           </Link>
           <Link
             href="#contact"
@@ -101,10 +101,10 @@ const Navbar = () => {
         onClick={() => setIsMenuOpen(false)}
       >
         <Link href="#technology" className="text-gray-300 hover:text-white text-lg">
-          Technology
+          About
         </Link>
         <Link href="#pricing" className="text-gray-300 hover:text-white text-lg">
-          Pricing
+          Services
         </Link>
         <Link href="#contact" className="text-gray-300 hover:text-white text-lg">
           Contact

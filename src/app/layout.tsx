@@ -3,7 +3,6 @@ import { Oswald } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/layout/navbar";
 import PremiumFooter from "@/components/layout/footer";
-import FloatingChat from "@/components/chat/floating-chat";
 import CustomCursor from "@/components/ui/custom-cursor";
 import LoadingScreen from "@/components/ui/loading-screen";
 
@@ -32,7 +31,6 @@ export default function RootLayout({
         <NavBar />
         {children}
         <PremiumFooter />
-        <FloatingChat />
       </body>
     </html>
   );

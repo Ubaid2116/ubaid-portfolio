@@ -188,11 +188,7 @@ const PremiumFooter = () => {
               >
                 <Heart className="w-4 h-4 text-red-500" />
               </motion.div>
-              <span>by Agentia World Team</span>
-            </div>
-
-            <div className="text-gray-400">
-              © {new Date().getFullYear()} Agentia World. All rights reserved.
+              <span>by UBAID</span>
             </div>
           </motion.div>
         </div>
